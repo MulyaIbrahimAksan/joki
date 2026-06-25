@@ -1,8 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Admin;
 
-abstract class Controller
+use App\Http\Controllers\Controller;
+
+class AntreeanController extends Controller
 {
     //
 }
