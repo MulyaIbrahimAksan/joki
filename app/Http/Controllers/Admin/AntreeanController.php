@@ -89,11 +89,11 @@ class AntreeanController extends Controller
         $antreean->load(['pasien', 'poli', 'dokter']);
 
         // Clear display cache so display updates immediately
+        $today = now()->toDateString();
         Cache::forget('display_data');
         Cache::forget('display_initial_' . $today);
         
         // Clear dashboard cache
-        $today = now()->toDateString();
         Cache::forget('dashboard_stats_' . $today);
         Cache::forget('dashboard_polis_' . $today);
         Cache::forget('dashboard_terbaru_' . $today);
