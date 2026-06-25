@@ -10,7 +10,7 @@ class Antreean extends Model
 
     protected $fillable = [
         'pasien_id', 'poli_id', 'dokter_id', 'user_id',
-        'nomor_antrian', 'barcode_code', 'barcode_image',
+        'nomor_antrian',
         'status', 'dipanggil_at', 'selesai_at', 'tanggal',
     ];
 

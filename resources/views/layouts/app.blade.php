@@ -104,10 +104,6 @@
                href="{{ route('admin.antrian.index') }}">
                 <i class="bi bi-list-ol"></i> Antrian
             </a>
-            <a class="nav-link {{ request()->routeIs('admin.antrian.scan') ? 'active' : '' }}"
-               href="{{ route('admin.antrian.scan') }}">
-                <i class="bi bi-upc-scan"></i> Scan Barcode
-            </a>
             <a class="nav-link" href="{{ route('display') }}" target="_blank">
                 <i class="bi bi-display"></i> Display TV
                 <i class="bi bi-box-arrow-up-right ms-auto small opacity-50"></i>

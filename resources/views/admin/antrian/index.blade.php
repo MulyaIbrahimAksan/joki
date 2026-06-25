@@ -4,11 +4,6 @@
 @section('content')
 <div class="d-flex justify-content-between align-items-center mb-4">
     <h5 class="fw-bold mb-0"><i class="bi bi-list-ol me-2 text-success"></i>Antrian Hari Ini</h5>
-    <div class="d-flex gap-2">
-        <a href="{{ route('admin.antrian.scan') }}" class="btn btn-sv btn-sm">
-            <i class="bi bi-upc-scan me-1"></i>Scan Barcode
-        </a>
-    </div>
 </div>
 
 {{-- Filter poli --}}

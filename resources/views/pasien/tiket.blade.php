@@ -19,13 +19,6 @@
                 </h1>
             </div>
 
-            <div class="mb-3">
-                <img src="data:image/png;base64,{{ $antreean->barcode_image }}"
-                     alt="Barcode {{ $antreean->barcode_code }}"
-                     class="img-fluid" style="max-height: 80px;">
-                <p class="text-muted small mt-1">{{ $antreean->barcode_code }}</p>
-            </div>
-
             <hr>
 
             <div class="text-start small">

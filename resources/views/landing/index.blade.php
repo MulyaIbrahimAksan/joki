@@ -175,7 +175,7 @@
 </div>
 
 <div class="footer-text">
-    Scan QR Code di meja pendaftaran untuk memulai
+    Daftar antrian langsung dari HP atau komputer
 </div>
 
 </body>
